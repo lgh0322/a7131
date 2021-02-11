@@ -66,7 +66,7 @@ const osThreadAttr_t x2Task_attributes = {
 osThreadId_t x3TaskHandle;
 const osThreadAttr_t x3Task_attributes = {
   .name = "x3Task",
-  .priority = (osPriority_t) osPriorityNormal2,
+  .priority = (osPriority_t) osPriorityLow1,
   .stack_size = 128 * 4
 };
 /* Definitions for xa1 */
